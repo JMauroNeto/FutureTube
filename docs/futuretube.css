@@ -112,7 +112,13 @@ video{
     height: 80%;
     display: grid;
     grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: 1fr 1fr;
 }
+
+#relacionados p{
+    padding-left: 5px;
+}
+
 
 
 footer{
@@ -148,5 +154,11 @@ footer{
         display: block;
         width: 90vw;
         margin: 0 auto;
+    }
+    #menulateral{
+        display: none;
+    }
+    #relacionados{
+        display: none;
     }
 }
