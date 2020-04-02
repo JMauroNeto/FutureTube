@@ -12,10 +12,34 @@
             <h1>FutureTube</h1>
             <input type="text" placeholder="Busca" id="busca">
         </header>
+        <div id="menulateral">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#">Em alta</a></li>
+                <li><a href="#">Inscrições</a></li>
+                <li><a href="#">Originais</a></li>
+            </ul>
+            <hr>
+            <ul>
+                <li><a href="#">Biblioteca</a></li>
+                <li><a href="#">Histórico</a></li>
+            </ul>
+        </div>
         <main id="mainvideo">
-            <h3>Media 1</h3>
             <video id="player" src="https://storage.googleapis.com/future-apis.appspot.com/1.mp4" autoplay controls></video>
+            <div id="titulo">
+                <h3>Media 1</h3>
+                <div id="botoes">
+                    <button>Curtir</button>
+                    <button>Descurtir</button>
+                </div>
+            </div>
         </main>
+        <div id="relacionados">
+            <div class="videorelacionado"><a href="video2.html"><video src="https://storage.googleapis.com/future-apis.appspot.com/2.mp4#t=11" preload="metadata"></video></a><p>Media 2</p></div>
+            <div class="videorelacionado"><a href="video3.html"><video src="https://storage.googleapis.com/future-apis.appspot.com/3.mp4" preload="metadata"></video></a><p>Media 3</p></div>
+            <div class="videorelacionado"><a href="video4.html"><video src="https://storage.googleapis.com/future-apis.appspot.com/4.mp4" preload="metadata"></video></a><p>Media 4</p></div>
+        </div>
         <footer>
             <h1>Copyright Future4 2020</h1>
         </footer>

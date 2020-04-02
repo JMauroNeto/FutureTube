@@ -34,10 +34,35 @@ input[type="text"]#busca {
     padding-left: 15px;
 }
 
+#menulateral{
+    flex-basis: 19%;
+    border-right: 1px solid black;
+    height: 80%;
+}
+
+#menulateral ul{
+    list-style-type: none;
+}
+#menulateral li{
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+hr{
+    border-color: #b4b4b4;
+    margin: 10px 0;
+}
+
 #mainhome{
     box-sizing: border-box;
     padding: 10px;
-    flex-basis: 100%;
+    flex-basis: 80%;
+    height: 80%;
     display:grid;
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(4, 1fr);
@@ -45,13 +70,14 @@ input[type="text"]#busca {
 }
 
 #mainvideo{
-    width: 100%;
+    padding-top: 10px;
+    width: 60%;
     height: 80%;
 }
 
 #player{
     padding: 0 10px;
-    width: 50%;
+    width: 80%;
 }
 
 .video{
@@ -66,6 +92,28 @@ video{
 .video p{
     padding: 15px 3px;
 }
+
+#titulo{
+    padding: 0 10px;
+    display:flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+#titulo h3{
+    display: inline;
+    padding: 0;
+}
+
+#relacionados{
+    padding-top: 10px;
+    box-sizing: content-box;
+    flex-basis: 20%;
+    height: 80%;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+}
+
 
 footer{
     flex-basis: 100%;
